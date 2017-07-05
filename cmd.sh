@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Maintainer : Yoasalfa R. C.
+
 set -e
 
 # Check if runs in development or production
