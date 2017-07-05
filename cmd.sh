@@ -2,6 +2,7 @@
 
 set -e
 
+# Check if runs in development or production
 if [ "$ENV" = 'DEV' ]; then
 	echo "Running Development Server"
 	exec python "identidock.py"
